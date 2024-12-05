@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Livros Disponíveis</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@1,400&display=swap"
+    />
+    <link rel="stylesheet" href="/biblioteca-main/Projeto_Biblioteca/src/css/style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- Header -->
+      <div class="flex-row-baa">
+        <div class="rectangle">
+          <div class="biblioteca-main/Projeto_Biblioteca/src/img/logo_livro.png"></div>
+          <div class="rectangle-1">
+            <input class="rectangle-input" placeholder="Pesquisar livros..." />
+          </div>
+          <div class="rectangle-3"></div>
+        </div>
+        <div class="regroup">
+          <span class="menu" onclick="toggleMenu()">Menu</span>
+          <div class="menu-dropdown">
+            <ul>
+              <li><a href="#">Início</a></li>
+              <li><a href="#">Sobre</a></li>
+              <li><a href="#">Categorias</a></li>
+              <li><a href="#">Contato</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Barra Azul -->
+      <div class="rectangle-5"></div>
+
+      <!-- Texto Promocional -->
+      <div class="rectangle-6">
+        <span class="livros-gratuitos">Livros gratuitos de todos tipos</span>
+      </div>
+
+      <!-- Livros -->
+      <div class="livros-container">
+        <div class="livro">
+          <img src="/biblioteca-main/Projeto_Biblioteca/src/img/enaosobrounenhum.webp" alt="Livro 1" />
+          <p>Livro 1</p>
+        </div>
+        <div class="livro">
+          <img src="src/img/cafecomDeuspai.webp" alt="Livro 2" />
+          <p>Livro 2</p>
+        </div>
+        <div class="livro">
+          <img src="src/img/guiadesobrevienciananatureza.webp" alt="Livro 3" />
+          <p>Livro 3</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
